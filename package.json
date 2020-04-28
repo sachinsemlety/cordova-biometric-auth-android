@@ -1,17 +1,30 @@
 {
-    "name": "faceAuth",
-    "version": "0.0.1",
-    "description": "cordova face authentication",
-    "cordova": {
-        "id": "com.sachinsemlety.faceauth",
-        "platforms": [
-            "android"
-        ]
-    },
-    "keywords": [
-        "ecosystem:cordova",
-        "cordova-android"
-    ],
-    "author": "sachin semlety",
-    "license": "ISC"
+  "name": "com.sachinsemlety.faceauth",
+  "version": "0.0.1",
+  "description": "\n\t\tCordova plugin to use Android face authentication API\n\t",
+  "cordova": {
+    "id": "com.sachinsemlety.faceauth",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinsemlety/cordova-biometric-auth-android.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "android",
+    "face",
+    "authentication",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Sachin Semlety",
+  "license": "\n\t\tApache 2.0\n\t",
+  "bugs": {
+    "url": "https://github.com/sachinsemlety/cordova-biometric-auth-android/issues"
+  },
+  "homepage": "https://github.com/sachinsemlety/cordova-biometric-auth-android#readme"
 }
