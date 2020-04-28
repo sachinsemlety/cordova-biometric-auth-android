@@ -3,6 +3,16 @@ Before installing, this plugin requires Cordova Fragment Activity
 Please install this plugin first (https://github.com/ReallySmallSoftware/cordova-plugin-android-fragmentactivity)
 This plugin is required because Biometric Auth for Android 10 and above doesn't support Cordova Activity as it supports Fragment Activity.
 
+# Installation
+```
+cordova plugin add cordova-biometric-auth-android --save
+```
+
+or
+
+```
+phonegap plugin add cordova-biometric-auth-android
+```
 
 # Manual Changes
 After Installation of both plugins
