@@ -1,0 +1,17 @@
+{
+    "name": "faceAuth",
+    "version": "0.0.1",
+    "description": "cordova face authentication",
+    "cordova": {
+        "id": "com.sachinsemlety.faceauth",
+        "platforms": [
+            "android"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+    "author": "sachin semlety",
+    "license": "ISC"
+}

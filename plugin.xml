@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="com.sachinsemlety.faceauth" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>
+		FaceAuth
+	</name>
+	<description>
+		Cordova plugin to use Android face authentication API
+	</description>
+	<license>
+		Apache 2.0
+	</license>
+	<keywords>
+		cordova,plugin,android,face,authentication
+	</keywords>
+	<repo>
+	</repo>
+	<issue>
+	</issue>
+	<js-module name="FaceAuth" src="www/FaceAuth.js">
+		<clobbers target="cordova.plugins.FaceAuth" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="FaceAuth">
+				<param name="android-package" value="com.sachinsemlety.faceauth.FaceAuth" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml">
+			<uses-permission android:name="android.permission.USE_BIOMETRIC" />
+		</config-file>
+		<source-file src="src/android/FaceAuth.java" target-dir="src/com/sachinsemlety/faceauth/FaceAuth" />
+		<preference name="ANDROID_BIOMETROC_VERSION" default="1.0.1" />
+	<framework src="androidx.biometric:biometric:$ANDROID_BIOMETROC_VERSION" />
+	</platform>
+</plugin>
